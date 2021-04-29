@@ -1,4 +1,9 @@
 h1{
+    font-size: 2em;
     text-align: center;
-    color: red;
+    text-transform: uppercase;
+}
+
+span{
+    font-size: 1rem;
 }
