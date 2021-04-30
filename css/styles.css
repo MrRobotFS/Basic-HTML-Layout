@@ -1,17 +1,55 @@
+/*Custom properties*/
+:root{
+    --white: #ffffff;
+    --black: #212121;
+    --primary: #ffbf00;
+    --secondary:#597e8d;
+    --mainFont:3.8rem;
+}
+
 html{
     font-size: 62.5%;
 }
 
 body{
     font-size: 16px;
+    font-family: comfortaa, sans-serif;
 }
 
-h1{
+h1 {
     text-align: center;
     text-transform: uppercase;
-    font-size: 6rem;
+    font-size: var(--mainFont);
+    color:var(--primary);
+    font-weight: 400;
 }
 
-span{
-    font-size: 2rem;
+h1 span{
+  font-size: 2rem;  
+}
+
+.nav-bg{
+    background-color: var(--secondary);
+
+}
+
+.container{
+    width:120rem;
+    margin:0 auto;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-nav a{
+    color:white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.main-nav a:hover{
+    color:var(--secondary);
+    background-color: var(--primary);
 }
