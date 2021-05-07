@@ -144,3 +144,15 @@ h3 {
   padding: 2rem;
   border-radius: 2rem;
 }
+
+@media (min-width: 768px) {
+  .services {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*
+    Anyone of the three is the same resoult
+    grid:20% 20% 20% 20%;
+    grid: 1fr 1fr 1fr 1gr
+    */
+  }
+}
